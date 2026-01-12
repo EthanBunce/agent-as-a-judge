@@ -29,4 +29,6 @@ This is the criteria related to the task:
 
 Follow the format in the example below and return only the file paths that match the criteria:
 {demonstration}
+
+Always return the full file path, do not shorten in any way with ellipses (...)
     """
