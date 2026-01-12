@@ -217,7 +217,7 @@ if __name__ == "__main__":
 
     model_name = "gpt-4o-2024-08-06"
     api_key = os.getenv("OPENAI_API_KEY")
-    base_url = "https://api.openai.com/v1"
+    base_url = "bedrock.eu-west-2.amazonaws.com"
 
     llm_instance = LLM(model=model_name, api_key=api_key, base_url=base_url)
 

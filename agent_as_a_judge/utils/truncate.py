@@ -21,6 +21,10 @@ def truncate_string(
         return ""
 
     info_string = str(info_string)
+
+    #workaround as bedrock models prefixed with openai.
+    #if using a different model you might need to add additional logic here to ensure encoding lookup passes
+    model = model.removeprefix("openai.")
     
     try:
         encoding = tiktoken.encoding_for_model(model)
