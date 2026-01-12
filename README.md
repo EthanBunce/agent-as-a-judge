@@ -88,6 +88,8 @@ You can find an [example](assets/ask_sample.md) to see how **Ask Anything** work
 
 #### Usage B: **Agent-as-a-Judge** for **DevAI**
 
+Note: currently only problem #39 has output for evaluation in this repo, so only that can be judged
+
 
 ```python
 
